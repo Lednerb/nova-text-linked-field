@@ -48,4 +48,15 @@ class TextLinked extends Text
         $url = \Nova::path() . "/resources/{$resource->uriKey()}/{$resource->id}";
         return $this->withMeta(['url' => $url]);
     }
+
+    /**
+     * The field's component.
+     *
+     * @param string $target
+     * @return TextLinked
+     */
+    public function openInNewTab(string $target = "_blank")
+    {
+        return $this->withMeta(['target' => $target]);
+    }
 }
