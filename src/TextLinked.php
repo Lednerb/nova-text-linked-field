@@ -50,7 +50,7 @@ class TextLinked extends Text
     }
 
     /**
-     * The field's component.
+     * Control if the clicked link should open in a new tab/target
      *
      * @param string $target
      * @return TextLinked
