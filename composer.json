@@ -1,5 +1,5 @@
 {
-  "name": "lednerb/text-linked",
+  "name": "lednerb/nova-text-linked-field",
   "description": "Laravel Nova custom Text Field with a link to a resource or custom URL",
   "keywords": [
     "laravel",
