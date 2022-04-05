@@ -1,6 +1,6 @@
 <?php
 
-namespace Nikans\TextLinked;
+namespace Lednerb\TextLinked;
 
 use Laravel\Nova\Fields\Text;
 
