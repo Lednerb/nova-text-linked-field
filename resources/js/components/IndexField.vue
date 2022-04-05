@@ -3,7 +3,7 @@
         <template v-if="hasValue">
             <div v-if="field.asHtml" v-html="field.value"></div>
             <template v-else>
-                <a v-if="hasUrl" :href="field.url" :target="field.target" v-else class="whitespace-no-wrap no-underline dim text-primary font-bold">{{ field.value }}</a>
+                <a v-if="hasUrl" :href="field.url" :target="field.target" class="whitespace-no-wrap no-underline dim text-primary font-bold">{{ field.value }}</a>
                 <span v-else class="whitespace-no-wrap">{{ field.value }}</span>
             </template>
         </template>
