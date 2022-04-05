@@ -13,14 +13,6 @@ class TextLinked extends Text
      */
     public $component = 'text-linked';
 
-
-//    public function __construct($component = null) {
-//        parent::__construct($component);
-
-//        $url = \Nova::path() . "/resources/{$this->resource->uriKey()}/{$this->resource->id}";
-//        $this->meta = array_merge($this->meta, ['url' => $url]);
-//    }
-
     /**
      * The field's component.
      *
