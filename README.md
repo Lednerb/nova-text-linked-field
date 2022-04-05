@@ -27,7 +27,7 @@ The field behaves just like the default text field on detail and form screens.
 ## Installation
 
 ```bash
-composer require lednerb/text-linked
+composer require lednerb/nova-text-linked-field
 ```
 
 ## Usage options
