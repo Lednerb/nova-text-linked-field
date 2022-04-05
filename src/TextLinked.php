@@ -59,4 +59,26 @@ class TextLinked extends Text
     {
         return $this->withMeta(['target' => $target]);
     }
+
+    /**
+     * Control after which amount of chars the value should be trimmed
+     *
+     * @param int $chars
+     * @return TextLinked
+     */
+    public function trim(int $chars = 50)
+    {
+        return $this->withMeta(['trim' => $chars]);
+    }
+
+    /**
+     * Hide the tooltip if a value is trimmed
+     *
+     * @param bool $hide
+     * @return TextLinked
+     */
+    public function hideTooltip(bool $hide = true)
+    {
+        return $this->withMeta(['hideTooltip' => $hide]);
+    }
 }
